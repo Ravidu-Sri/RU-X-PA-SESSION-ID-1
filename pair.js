@@ -64,7 +64,7 @@ router.get('/', async (req, res) => {
                         });
 
                     } catch (e) {
-                        exec('pm2 restart prabath');
+                        exec('pm2 restart ravidu');
                     }
 
                     await delay(100);
